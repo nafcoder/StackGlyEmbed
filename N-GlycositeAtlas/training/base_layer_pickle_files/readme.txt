@@ -1,0 +1,1 @@
+run the main.py program to generate models

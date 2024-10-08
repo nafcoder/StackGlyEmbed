@@ -1,0 +1,2 @@
+Predictor,Sensitivity,Specificity,Balanced_acc,Accuracy,Precision,F1-score,MCC,AUC,auPR
+StackGlyEmbed,0.982,0.868,0.925,0.910,0.815,0.891,0.826,0.967,0.931
