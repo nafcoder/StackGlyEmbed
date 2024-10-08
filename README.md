@@ -38,9 +38,9 @@ IPython==8.18.1
 ```
 
 ### Reproduce results
-1. Firstly, download all features. Read the readme.txt of  [all_features](all_features) folder
+1. Firstly, download all features. Read the readme.txt of  [all_features](all_features) folder.
 
-2. In [N-GlycositeAtlas](N-GlycositeAtlas) and [N-GlyDE](N-GlyDE), all the reproducable codes are given. Also training scripts are also provided. Follow the readme.txt instructions if given in the corresponding folder
+2. In [N-GlycositeAtlas](N-GlycositeAtlas) and [N-GlyDE](N-GlyDE), reproducable codes are given. Training scripts are also provided. Follow the readme.txt instructions if it is given in the corresponding folder.
 
 ### Prediction
 #### Prerequisites
@@ -55,7 +55,7 @@ python setup.py install
 ```
 2. transformers, Pytorch and tensorflow are needed for extracting the embeddings.
 
-3. For more query, you can visit the following githubs:
+3. For more query, you can visit the following GitHubs:
 
     [ProtT5-XL-U50](https://github.com/agemagician/ProtTrans)
 
@@ -67,11 +67,11 @@ python setup.py install
 1. Firsly, you need to fillup [dataset.txt](prediction/dataset.txt). Follow the pattern shown below:
 
 ```
-Protein_id, site_position_1,site_position_2,...,site_position_n
+Protein_id,site_position_1,site_position_2,...,site_position_n
 Fasta
 ```
 
 2. For predicting N-linked glycosylation sites from a protein sequence, you need to run the [extractFeatures.py](prediction/extractFeatures.py) to generate features and then run [predict.py](prediction/predict.py) for prediction.
 
 ### Reproduce previous paper metrics
-In [Previous Paper codes](<Previous Paper codes>), scripts are provided for reproducing the results of previous papers.
+In [Previous Paper codes](<Previous Paper codes>), scripts are provided for reproducing the results of the previous papers.
