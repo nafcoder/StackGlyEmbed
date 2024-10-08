@@ -42,8 +42,6 @@ IPython==8.18.1
 
 2. In [N-GlycositeAtlas](N-GlycositeAtlas) and [N-GlyDE](N-GlyDE), all the reproducable codes are given. Also training scripts are also provided. Follow the readme.txt instructions if given in the corresponding folder
 
-3. Lastly, run the main.py file to reproduce results for each tables. Before running, update the path variables inside the file. One exception is [table_7_generation](N-GlycositeAtlas/table_7_generation). You need to first run [save_probabilities.py](N-GlycositeAtlas/table_7_generation/save_probabilities.py) and then run [load_probabilities.py](N-GlycositeAtlas/table_7_generation/load_probabilities.py).
-
 ### Prediction
 #### Prerequisites
 1. You need to have ProteinBert. Follow the following:
