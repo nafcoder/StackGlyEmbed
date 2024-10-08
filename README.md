@@ -1,15 +1,16 @@
 # StackGlyEmbed
 
 ### Selected Feature Group
-![DeepCPBSite_2 (1)-1](https://github.com/user-attachments/assets/9b84d4a2-f0d3-44c7-ad7c-8fbb337a2279)
+![DeepCPBSite_2 (1)-1](https://github.com/user-attachments/assets/7c21ce0b-324e-403d-ad52-ec1c8317d7ae)
+
 
 
 ### Training framework
-![1](https://github.com/nafiislam/StackGlyEmbed/assets/65466905/954c0ee4-c4d2-4a75-91c9-691b5f5de28f)
+![1-1](https://github.com/user-attachments/assets/644ab2bb-06b7-417f-81b8-9e9b999c7da1)
 
 
 ### Prediction framework
-<img src="https://github.com/nafiislam/StackGlyEmbed/assets/65466905/a3f263c7-da44-4c5b-91d6-eda911fd8346" width=50% height=100%>
+![3-1](https://github.com/user-attachments/assets/ba0c5b63-08e6-4a91-85e7-fab64c9afdd5)
 
 ### Data availability
 All training and independent datasets are given in [Dataset](Dataset) folder
