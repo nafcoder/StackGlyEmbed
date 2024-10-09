@@ -6,14 +6,11 @@ import numpy as np
 import pickle
 
 
-def preprocess_the_dataset(feature_X):
-
-    pt = PowerTransformer()
-    try:
-        pt.fit(feature_X)
-        feature_X = pt.transform(feature_X)
-    except:
-        pass
+def preprocess_the_dataset(feature_X, i):
+    file = f'power_transformer_{i}.sav'
+    with open(file, 'rb') as f:
+        pt = pickle.load(f)
+    feature_X = pt.transform(feature_X)
 
     return feature_X
 
@@ -26,7 +23,7 @@ def make_string(s):
 
 
 def load_the_pickle_files_base_layer(converted_all_features_with_output):
-    test_X = preprocess_the_dataset(converted_all_features_with_output)
+    test_X = preprocess_the_dataset(converted_all_features_with_output, 2)
     test_base_output_total = np.zeros((len(test_X), 1), dtype=float)
 
     pickle_folder_path = str('./base_layer_pickle_files/')
@@ -51,7 +48,7 @@ def load_the_pickle_files_base_layer(converted_all_features_with_output):
 
 
 def load_the_pickle_files_meta_layer(converted_all_features_with_output):
-    test_X = preprocess_the_dataset(converted_all_features_with_output)
+    test_X = preprocess_the_dataset(converted_all_features_with_output, 3)
 
     pickle_file_path = str('./base_layer_pickle_files/SVM_meta_layer.sav')
 
@@ -98,7 +95,7 @@ with open('predicted_values.txt', 'w') as f:
     print('feature_X_Benchmark : ', feature_X_Benchmark.shape)
 
     X = feature_X_Benchmark
-    X = preprocess_the_dataset(X)
+    X = preprocess_the_dataset(X, 1)
 
     print('X : ', X.shape)
 
