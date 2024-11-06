@@ -6,11 +6,13 @@
 
 
 ### Training framework
-![1-1](https://github.com/user-attachments/assets/644ab2bb-06b7-417f-81b8-9e9b999c7da1)
+![1-1](https://github.com/user-attachments/assets/c79d5549-3965-4cdf-baef-76d0de753a31)
+
 
 
 ### Prediction framework
-![3-1](https://github.com/user-attachments/assets/ba0c5b63-08e6-4a91-85e7-fab64c9afdd5)
+![3-1](https://github.com/user-attachments/assets/b1edf084-86c8-4156-b83a-e13a0d2aef3c)
+
 
 ### Data availability
 All training and independent datasets are given in [Dataset](Dataset) folder
