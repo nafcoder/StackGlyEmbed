@@ -1,12 +1,14 @@
 # StackGlyEmbed
 
 ### Selected Feature Group
-![DeepCPBSite_2 (1)-1](https://github.com/user-attachments/assets/7c21ce0b-324e-403d-ad52-ec1c8317d7ae)
+![2-1](https://github.com/user-attachments/assets/cbb16bf1-76c4-4471-a072-204204464969)
+
 
 
 
 ### Training framework
-![1-1](https://github.com/user-attachments/assets/c79d5549-3965-4cdf-baef-76d0de753a31)
+![1-1](https://github.com/user-attachments/assets/7582972e-1e3c-4d65-a47a-4d51eb323edb)
+
 
 
 
